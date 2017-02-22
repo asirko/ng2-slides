@@ -1,9 +1,12 @@
-## Formateur
+## Formateurs
 
-Jocelyn N'TAKPÉ
+| Créateur de la formation                 | Moi                          |
+| ---------------------------------------- | ---------------------------- |
+| Jocelyn N'TAKPÉ                          | Alexandre Sirko              |
+| Toulousain, 30 ans                       | Albigeois/Toulousain, 26 ans |
+| Architecte Java et JS                    | Développeur Front-end        |
+| Responsable communauté architecture, B.U. Banque&Finance | Division Tertiaire - Pôle 81 |
 
-Toulousain, 30 ans
+Autre contact : 
 
-Architecte Java et JS
-
-Responsable communauté architecture B.U. Banque&Finance
+Responsable du socle Angular 2 de la division Tertiaire : Mustapha Bargach (Architecte de la division 81)

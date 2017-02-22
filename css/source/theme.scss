@@ -2,6 +2,9 @@
 @import "../../bower_components/reveal.js/css/theme/template/mixins";
 @import "../../bower_components/reveal.js/css/theme/template/settings";
 
+// surcharge du sty de départ
+$heading1Size: 3em;
+
 // ---------------------------------------------
 
 // Include theme-specific fonts
@@ -61,4 +64,8 @@ p code {
     position: fixed;
     bottom: 10px;
     left: 10px;
+}
+
+.reveal table {
+    font-size: 0.85em;
 }

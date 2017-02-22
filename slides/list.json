@@ -5,225 +5,70 @@
         "intro/tourtable.md",
         "intro/installation.md",
         "intro/sources.md"
-    ],
-    [
+    ], [
         "js/js.md",
         "js/es.md",
         "js/transpileur.md",
-        {
-            "filename": "js/var.md",
-            "attr": {
-                "data-ex": "js/var.js"
-            }
-        },
-        {
-            "filename": "js/let.md",
-            "attr": {
-                "data-ex": "js/let.js"
-            }
-        },
-        {
-            "filename": "js/const.md",
-            "attr": {
-                "data-ex": "js/const.js"
-            }
-        },
-        {
-            "filename": "js/create-obj.md",
-            "attr": {
-                "data-ex": "js/create-obj.js"
-            }
-        },
-        {
-            "filename": "js/destructuring.md",
-            "attr": {
-                "data-ex": "js/destruct.js"
-            }
-        },
-        {
-            "filename": "js/param-opt.md",
-            "attr": {
-                "data-ex": "js/param-opt.js"
-            }
-        },
-        {
-            "filename": "js/rest.md",
-            "attr": {
-                "data-ex": "js/rest.js"
-            }
-        },
-        {
-            "filename": "js/classes.md",
-            "attr": {
-                "data-ex": "js/classes.js"
-            }
-        },
-        {
-            "filename": "js/get-set.md",
-            "attr": {
-                "data-ex": "js/get-set.js"
-            }
-        },
-        {
-            "filename": "js/promises.md",
-            "attr": {
-                "data-ex": "js/callbacks.js && js/promises.js"
-            }
-        },
-        {
-            "filename": "js/arrow-fct.md",
-            "attr": {
-                "data-ex": "js/arrow-fct.js && js/this-bind.js"
-            }
-        },
-        {
-            "filename": "js/collections.md",
-            "attr": {
-                "data-ex": "js/collections.js"
-            }
-        },
-        {
-            "filename": "js/template-string.md",
-            "attr": {
-                "data-ex": "js/template-string.js"
-            }
-        },
-        {
-            "filename": "js/module.md",
-            "attr": {
-                "data-ex": "js/rating-service.js && js/exec-module.js"
-            }
-        }
-    ],
-    [
+        "js/var.md",
+        "js/let.md",
+        "js/const.md",
+        "js/create-obj.md",
+        "js/destructuring.md",
+        "js/param-opt.md",
+        "js/rest.md",
+        "js/classes.md",
+        "js/get-set.md",
+        "js/promises.md",
+        "js/arrow-fct.md",
+        "js/collections.md",
+        "js/template-string.md",
+        "js/module.md"
+    ], [
         "ts/typescript.md",
-        {
-            "filename": "ts/typescript.md",
-            "attr": {
-                "data-ex": "ts/types.ts"
-            }
-        },
-        {
-            "filename": "ts/enums.md",
-            "attr": {
-                "data-ex": "ts/enum.ts"
-            }
-        },
-        {
-            "filename": "ts/return.md",
-            "attr": {
-                "data-ex": "ts/return.ts"
-            }
-        },
-        {
-            "filename": "ts/interface.md",
-            "attr": {
-                "data-ex": "ts/writer.ts"
-            }
-        },
-        {
-            "filename": "ts/param-opt.md",
-            "attr": {
-                "data-ex": "ts/param-opt.ts"
-            }
-        },
-        {
-            "filename": "ts/classes.md",
-            "attr": {
-                "data-ex": "ts/console-writer.ts"
-            }
-        },
-        {
-            "filename": "ts/decorator.md",
-            "attr": {
-                "data-ex": "ts/decorator.ts"
-            }
-        },
+        "ts/enums.md",
+        "ts/return.md",
+        "ts/interface.md",
+        "ts/param-opt.md",
+        "ts/classes.md",
+        "ts/decorator.md",
         "ts/libraries.md"
-    ],
-    [
+    ], [
         "webcomponents/webcomponents.md"
-    ],
-    [
+    ], [
         "ng2/goals.md",
         "ng2/component.md",
         "ng2/template.md"
-    ],
-    [
-        {
-            "filename": "ng2/template/int/interpol.md",
-            "attr": {
-                "data-ex": "interpolation/interpolation.component.ts"
-            }
-        },
+    ], [
+        "ng2/template/int/interpol.md",
         "ng2/template/int/objet.md",
         "ng2/template/int/erreurs.md",
         "ng2/template/int/safe.md",
-        {
-            "filename": "ng2/template/int/change-detect.md",
-            "attr": {
-                "data-ex": "change-detect/change-detect.component.ts"
-            }
-        },
+        "ng2/template/int/change-detect.md",
         "ng2/template/int/compose-component.md"
-    ],
-    [
+    ], [
         "ng2/template/bind/binding.md",
-        {
-            "filename": "ng2/template/bind/binding2.md",
-            "attr": {
-                "data-ex": "binding/binding.ts"
-            }
-        }
-    ],
-    [
+        "ng2/template/bind/binding2.md"
+    ], [
         "ng2/template/events/events.md",
         "ng2/template/events/events2.md",
-        {
-            "filename": "ng2/template/events/events3.md",
-            "attr": {
-                "data-ex": "events/events.ts"
-            }
-        },
-        {
-            "filename": "ng2/template/local-var.md",
-            "attr": {
-                "data-ex": "local-var/local-var.component.ts"
-            }
-        }
-    ],
-    [
+        "ng2/template/events/events3.md",
+        "ng2/template/local-var.md"
+    ], [
         "ng2/template/structure/base.md",
         "ng2/template/structure/ngif.md",
         "ng2/template/structure/ngfor.md",
-        {
-            "filename": "ng2/template/structure/ngfor2.md",
-            "attr": {
-                "data-ex": "struct/struct.ts"
-            }
-        },
+        "ng2/template/structure/ngfor2.md",
         "ng2/template/structure/ngswitch.md"
-    ],
-    [
+    ], [
         "ng2/template/templating/base.md",
         "ng2/template/templating/ngstyle.md",
-        {
-            "filename": "ng2/template/templating/ngclass.md",
-            "attr": {
-                "data-ex": "dirtpl/dir-tpl.component.ts"
-            }
-        }
+        "ng2/template/templating/ngclass.md"
     ],
     "ng2/template/tpl.md",
     "ng2/tps/todo-binding.md",
     [
         "ng2/pipes/pipes.md",
-        {
-            "filename": "ng2/pipes/json.md",
-            "attr": {
-                "data-ex": "pipes/pipes.component.ts"
-            }
-        },
+        "ng2/pipes/json.md",
         "ng2/pipes/slice.md",
         "ng2/pipes/uplowcase.md",
         "ng2/pipes/number.md",
@@ -233,8 +78,10 @@
         "ng2/pipes/async.md",
         "ng2/pipes/own-pipe.md",
         "ng2/tps/todo-pipes.md"
-    ],
-    [
+    ], [
+        "ng2/cli/new.md",
+        "ng2/cli/exemple-new.md"
+    ], [
         "ng2/rxjs/rxjs.md",
         "ng2/rxjs/why/disclaimer.html",
         "ng2/rxjs/how-rx-works/observable.md",
@@ -255,81 +102,43 @@
         "ng2/rxjs/transform/concatmap.md",
         "ng2/rxjs/transform/switchMap.md",
         "ng2/rxjs/transform/reduce.md"
-    ],
-    [
+    ], [
         "ng2/http/http.md",
         "ng2/http/methods.md",
         "ng2/http/get-data.md",
         "ng2/http/transform-data.md",
         "ng2/http/http-params.md",
         "ng2/tps/obs-http.md"
-    ],
-    [
-        "ng2/cli/new.md"
-    ],
-    [
+    ], [
         "ng2/di/di.md",
         "ng2/di/di-ia.md",
         "ng2/di/decl-dep.md",
-        {
-            "filename": "ng2/di/enr-dep.md",
-            "attr": {
-                "data-ex": "di/di.component.ts"
-            }
-        }
-    ],
-    [
+        "ng2/di/enr-dep.md"
+    ], [
         "ng2/composant/directives.md",
         "ng2/composant/selectors.md",
         "ng2/composant/inputs.md",
-        {
-            "filename": "ng2/composant/outputs.md",
-            "attr": {
-                "data-ex": "component/item.component.ts"
-            }
-        },
+        "ng2/composant/outputs.md",
         "ng2/composant/lifecycle.md",
         "ng2/composant/lifecycle2.md",
-        {
-            "filename": "ng2/composant/composants.md",
-            "attr": {
-                "data-ex": "generated/generated.component.ts"
-            }
-        },
+        "ng2/composant/composants.md",
         "ng2/composant/styles.md",
         "ng2/tps/first-comp.md"
-    ],
-    [
+    ], [
         "ng2/services/services.md",
         "ng2/services/title.md",
-        {
-            "filename": "ng2/services/create-service.md",
-            "attr": {
-                "data-ex": "github.service.ts"
-            }
-        },
+        "ng2/services/create-service.md",
         "ng2/services/inject-service.md",
         "ng2/tps/service.md"
-    ],
-    [
+    ], [
         "ng2/form/form.md",
         "ng2/form/form-field.md",
         "ng2/form/create-form-field.md",
         "ng2/form/form-group.md",
         "ng2/form/create-form-group.md",
-        {
-            "filename": "ng2/form/form-tpl.md",
-            "attr": {
-                "data-ex": "tpl-form/tpl-form.component.ts"
-            }
-        },
+        "ng2/form/form-tpl.md",
         "ng2/form/react-form.md",
-        {
-            "filename": "ng2/form/react-form2.md",
-            "attr": {
-                "data-ex": "react-form/react-form.component.ts"
-            }
-        },
+        "ng2/form/react-form2.md",
         "ng2/form/validateurs.md",
         "ng2/form/validateurs-react.md",
         "ng2/form/validateurs-tpl.md",
