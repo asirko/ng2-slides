@@ -4,7 +4,7 @@
         "intro/aboutme.md",
         "intro/tourtable.md",
         "intro/installation.md",
-        "intro/sources.md"
+        "intro/plan.md"
     ], [
         "js/js.md",
         "js/es.md",
@@ -33,9 +33,8 @@
         "ts/decorator.md",
         "ts/libraries.md"
     ], [
-        "webcomponents/webcomponents.md"
-    ], [
         "ng2/goals.md",
+        "ng2/webcomponents.md",
         "ng2/component.md",
         "ng2/template.md"
     ], [
@@ -63,8 +62,10 @@
         "ng2/template/templating/base.md",
         "ng2/template/templating/ngstyle.md",
         "ng2/template/templating/ngclass.md"
+    ], [
+        "ng2/template/tpl.md",
+        "ng2/template/tpl2.md"
     ],
-    "ng2/template/tpl.md",
     "ng2/tps/todo-binding.md",
     [
         "ng2/pipes/pipes.md",
@@ -130,6 +131,12 @@
         "ng2/services/create-service.md",
         "ng2/services/inject-service.md",
         "ng2/tps/service.md"
+    ], [
+        "ng2/router/description.md",
+        "ng2/router/declaration.md",
+        "ng2/router/params.md",
+        "ng2/router/guard.md",
+        "ng2/router/lazy-routing.md"
     ], [
         "ng2/form/form.md",
         "ng2/form/form-field.md",

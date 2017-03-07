@@ -2,7 +2,7 @@
 
 Permet d'avoir des composants réutilisables et intégrés.
 
-Basés sur 4 spécifications : 
+Basés sur 4 spécifications :
 * custom elements : permet de créer ces propres éléments
 * shadow DOM : encapsule le comportement
 * template : permet de cloner des éléments. Non affiché par le navigateur
