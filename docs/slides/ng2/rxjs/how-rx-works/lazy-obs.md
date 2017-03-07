@@ -1,3 +1,0 @@
-## Observables are lazy ...
-
-![Lazy obs](/slides/ng2/rxjs/how-rx-works/lazy.gif)
