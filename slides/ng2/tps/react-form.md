@@ -1,10 +1,14 @@
 ## TP formulaires
 
-* Créer le composant 'rate'
-* Créer la route pour afficher le componsant '/rate/:id'
-* Récupérer la session depuis le serveur en fonction de l'identifiant ':id'
-* Tous les champs sont obligatoires. Afficher un message d'erreur si champ n'est pas saisi.
-* Le bouton submit doit être disabled si le formulaire n'est pas valide.
-* Afficher une alert Bootstrap du type **Ce n'est pas très gentil :)** si l'utilisateur met une note à zéro.
-* Empêcher l'utilisateur de mettre toutes les notes à zéro
-* **A venir** Enregistrer les notes sur le serveur
+```
+git checkout exo-form
+```
+
+Dans le composant `exercice.component.ts`
+
+1. créer le `formGroup` dans la méthode `ngOnInit` puis lier le formGroup et ses champs au template ;
+2. si la `category` change, vider le formulaire ;
+3. ajouter une validation inter champs au formGroup (cf: `TODO: validation`) ;
+4. ajouter un `Output` d'`Exercice` , `addExercice` émet la valeur si le formulaire est valide et `close` émet `null` ;
+5. la méthode `getTitle` renvoit les erreurs formattées ;
+6. **facultatif :** faire une saisie assisté pour le champ `type` (liste des suggestions disponibles dans `Exercice.ts`).

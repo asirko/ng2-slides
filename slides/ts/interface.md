@@ -1,18 +1,13 @@
 ## Interfaces
 
-        function updateAge(user: {birthdate: Date, age: number}):void {
-            if (moment().dayOfYear() === moment(user.birthdate).dayOfYear()) {
-                user.age++;
-            }
-        }
+```typescript
+interface Writer {
+	write(message: string): void;    
+}
+```
 
-| 
-  
-        interface Writer {
-            write(message: string): void;    
-        }
-        
-        
-        function writeUserName(writer: Writer) {
-            writer.write(user.name);
-        }
+```typescript
+function writeUserName(writer: Writer) {
+	writer.write(user.name);
+}
+```

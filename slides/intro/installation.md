@@ -4,7 +4,7 @@ Les outils suivants sont à installer :
 
 * Git
 * NodeJs
-* Un IDE
+* Un IDE (webstorm, VisualStudio code, SublimeText, ...)
 
 Depuis l'invite de commandes :
 

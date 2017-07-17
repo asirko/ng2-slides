@@ -1,4 +1,4 @@
-# les params
+## les route params
 
 Déclarer une route avec des paramètres :
 ```
@@ -14,6 +14,9 @@ ngOnInit(){
     let id = +params['id'];
     ...
   });
+  
+  // Ou
+  this.route.snapshot.params.id;
 }
-
 ```
+

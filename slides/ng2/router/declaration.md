@@ -20,4 +20,4 @@ déclaration dans les modules, exemple :
 export class AppRoutingModule { }
  ```
 
-forRoot pour le Root Module et forChild pour tous les autres
+1 route = 1 composant (null autorisé)

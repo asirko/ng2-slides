@@ -5,3 +5,5 @@ Utilitaire en ligne de commande qui permet de :
 - Démarrer un serveur local (possibilité d'utiliser un proxy pour les données serveur)
 - Builder l'application (compilation, minification, ...)
 - Lancer les tests unitaires
+
+[c.f. la documentation](https://github.com/angular/angular-cli/tree/master/docs/documentation)
