@@ -5,7 +5,7 @@ Grâce aux observables il est possible d'être notifié instantanément des chan
 ```javascript
  constructor(formBuilder: FormBuilder) {
     const isKnowUser = (control: FormControl) => {
-      return ['jntakpe', 'gpeel']
+      return ['mitch', 'asirko']
         .filter(v => v === control.value)
         .length ? null : {unknownUser: true};
     }

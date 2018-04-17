@@ -1,64 +1,30 @@
 [
-    "index.md",
     [
-        "intro/aboutme.md",
-        "intro/tourtable.md",
-        "intro/installation.md",
-        "intro/plan.md"
-    ], [
-        "js/js.md",
-        "js/es.md",
-        "js/transpileur.md",
-        "js/var.md",
-        "js/let.md",
-        "js/const.md",
-        "js/create-obj.md",
-        "js/destructuring.md",
-        "js/param-opt.md",
-        "js/rest.md",
-        "js/classes.md",
-        "js/get-set.md",
-        "js/promises.md",
-        "js/arrow-fct.md",
-        "js/collections.md",
-        "js/template-string.md",
-        "js/module.md"
-    ], [
-        "ts/typescript.md",
-        "ts/types.md",
-        "ts/return.md",
-        "ts/interface.md",
-        "ts/param-opt.md",
-        "ts/classes.md",
-        "ts/decorator.md",
-        "ts/libraries.md"
-    ], [
         "ng2/goals.md",
         "ng2/webcomponents.md",
         "ng2/component.md",
         "ng2/template.md"
     ], [
+        "ng2/cli/new.md",
+        "ng2/cli/exemple-new.md",
+        "ng2/cli/generation.md"
+    ], [
         "ng2/template/int/interpol.md",
-        "ng2/template/int/objet.md",
         "ng2/template/int/erreurs.md",
         "ng2/template/int/safe.md",
-        "ng2/template/int/change-detect.md",
-        "ng2/template/int/compose-component.md"
+        "ng2/template/int/change-detect.md"
     ], [
         "ng2/template/bind/binding.md",
         "ng2/template/bind/binding2.md"
     ], [
         "ng2/template/events/events.md",
         "ng2/template/events/events2.md",
-        "ng2/template/events/events3.md",
-        "ng2/template/local-var.md"
-    ], [
+        "ng2/template/events/events3.md"
+    ],
+    "ng2/template/local-var.md",
+    [
         "ng2/template/structure/base.md",
-        "ng2/template/structure/ngif.md",
-        "ng2/template/structure/ngelse.md",
-        "ng2/template/structure/ngfor.md",
-        "ng2/template/structure/ngfor2.md",
-        "ng2/template/structure/ngswitch.md"
+        "ng2/template/structure/ifFor.md"
     ], [
         "ng2/template/templating/base.md",
         "ng2/template/templating/ngstyle.md",
@@ -66,13 +32,6 @@
     ], [
         "ng2/template/tpl.md",
         "ng2/template/tpl2.md"
-    ],
-    "ng2/tps/fil-rouge.md",
-    "ng2/tps/templates.md", 
-	[
-        "ng2/cli/new.md",
-        "ng2/cli/exemple-new.md",
-        "ng2/cli/generation.md"
     ], [
         "ng2/pipes/pipes.md",
         "ng2/pipes/json.md",
@@ -83,75 +42,54 @@
         "ng2/pipes/currency.md",
         "ng2/pipes/date.md",
         "ng2/pipes/async.md",
-        "ng2/pipes/own-pipe.md",
-        "ng2/tps/pipes.md",
-        "ng2/tps/pipes2.md"
+        "ng2/pipes/own-pipe.md"
+    ], [
+        "ng2/composant/directives.md",
+        "ng2/composant/composants.md",
+        "ng2/composant/inputs.md",
+        "ng2/composant/outputs.md",
+        "ng2/composant/lifecycle.md"
+    ], [
+        "ng2/services/services.md",
+        "ng2/services/title.md",
+        "ng2/services/create-service.md",
+        "ng2/services/inject-service.md"
     ], [
         "ng2/di/di.md",
         "ng2/di/di-ia.md",
-        "ng2/di/decl-dep.md",
-        "ng2/di/enr-dep.md"
+        "ng2/di/enr-dep.md",
+        "ng2/di/decl-dep.md"
     ], [
         "ng2/http/http.md",
         "ng2/http/methods.md",
         "ng2/http/get-data.md",
-        "ng2/http/transform-data.md",
-        "ng2/http/http-params.md",
-        "ng2/tps/http.md"
-    ], [
+        "ng2/http/http-params.md"
+    ],
+    "ng2/module.md",
+    [
         "ng2/rxjs/rxjs.md",
-        "ng2/rxjs/why/disclaimer.html",
-        "ng2/rxjs/how-rx-works/observable.md",
-        "ng2/rxjs/how-rx-works/observer.md",
+        "ng2/rxjs/how-rx-works/observableObserver.md",
         "ng2/rxjs/how-rx-works/marbles.md",
-        "ng2/rxjs/how-rx-works/sync-vs-async.html",
-        "ng2/rxjs/how-rx-works/pull-vs-push.html",
         "ng2/rxjs/how-rx-works/lazy-obs.md",
-        "ng2/rxjs/create/create.md",
-        "ng2/rxjs/create/from.md",
-        "ng2/rxjs/create/just.md",
-        "ng2/rxjs/create/create-op.md",
-        "ng2/rxjs/create/other-ops.md",
+        "ng2/rxjs/transform/operators.md",
         "ng2/rxjs/filter/filter.md",
         "ng2/rxjs/filter/other-filters.md",
         "ng2/rxjs/transform/map.md",
         "ng2/rxjs/transform/flatmap.md",
         "ng2/rxjs/transform/concatmap.md",
         "ng2/rxjs/transform/switchMap.md",
-        "ng2/rxjs/transform/reduce.md",
-        "ng2/tps/obs-calc.md"
+        "ng2/rxjs/transform/reduce.md"
     ], [
-        "ng2/services/services.md",
-        "ng2/services/title.md",
-        "ng2/services/create-service.md",
-        "ng2/services/inject-service.md",
-        "ng2/tps/service.md"
-    ], [
-        "ng2/composant/directives.md",
-        "ng2/composant/selectors.md",
-        "ng2/composant/inputs.md",
-        "ng2/composant/outputs.md",
-        "ng2/composant/lifecycle.md",
-        "ng2/composant/lifecycle2.md",
-        "ng2/composant/composants.md",
-        "ng2/composant/styles.md",
-        "ng2/tps/compo.md",
-        "ng2/tps/compo2.md"
-    ],
-	"ng2/module.md",
-	[
         "ng2/router/description.md",
         "ng2/router/declaration.md",
         "ng2/router/router-outlet.md",
         "ng2/router/child-route.md",
         "ng2/router/navigation.md",
-        "ng2/tps/child-route.md",
         "ng2/router/params.md",
         "ng2/router/query-params.md",
         "ng2/router/data.md",
         "ng2/router/resolver.md",
         "ng2/router/guard.md",
-        "ng2/tps/guard.md",
         "ng2/router/lazy-routing.md"
     ], [
         "ng2/form/form.md",
@@ -167,7 +105,6 @@
         "ng2/form/validateurs-tpl.md",
         "ng2/form/valid-errors.md",
         "ng2/form/custom-valid.md",
-        "ng2/form/react-modifs.md",
-        "ng2/tps/react-form.md"
+        "ng2/form/react-modifs.md"
     ]
 ]

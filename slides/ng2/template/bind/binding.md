@@ -1,17 +1,18 @@
 # Binding
 
 * Toutes les propriétés du DOM accessibles
-* L'interpolation est du sucre syntaxique sur du binding de propriété
 * Sensible à la casse
 * Fonctionne avec les webcomponents
 
-Par exemple 
 
+```
+<div [hidden]="1 === 1">Ce texte sera caché</div>
+<input type="text" [value]="maVariable">
+<input type="radio" [checked]="true">
 
-``<h1>{{titre}}</h1>`` 
+<!-- ET -->
+<h1>{{titre}}</h1>
+<!-- équivaut à -->
+<h1 [textContent]="titre"></h1>
+``` 
 
-
-équivaut à  
-
-
-``<h1 [textContent]="titre"></h1>``

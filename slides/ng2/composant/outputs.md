@@ -1,7 +1,21 @@
 ## Sorties
 
-En Angular 2, les données entrent dans un composant via des propriétés et sortent via des événements.
+* Entrées = paramètres (parent => l'enfant)
+* Sorties = événement (parent <= l'enfant)
 
-Il est possible d'émettre des événements via l'annotation *@Output()*.
+```javascript
+<app-mon-composant (resultat)="traitement($event)"></app-mon-composant>
+```
 
-Angular 2 utilise la programmation réactive pour émettre et écouter des événements.
+Pour les événements il faut : le décorateur `@Output()` et un `EventEmitter`
+
+```javascript
+@Component({ ... })
+export class MonComposant {
+  @Output() resultat = new EventEmitter<number>();
+  
+  emettreScore(): void {
+      this.resultat.emit(45);
+  }
+}
+```

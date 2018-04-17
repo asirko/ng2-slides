@@ -1,4 +1,4 @@
-# Philosophie Angular 2
+# Philosophie Angular
 
 - Orienté composant (comme ReactJS, Aurelia, Vue.js)
 - != AngularJS orienté MVC ou MVVM

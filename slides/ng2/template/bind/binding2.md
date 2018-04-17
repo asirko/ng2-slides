@@ -11,5 +11,3 @@ Si la valeur est statique
 Il est aussi possible d'utiliser des fonctions
 
     <my-component [name]="findUsername()"></my-component>
-
-`` Plus besoin de retenir les directives spécifiques de ng1``

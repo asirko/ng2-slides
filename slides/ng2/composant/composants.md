@@ -16,5 +16,3 @@ La déclaration du template peut se faire inline via l'attribut *template* ou vi
       }
     
     }
-
-`Grâce à Webpack le chemin absolu sera généré automatiquement`

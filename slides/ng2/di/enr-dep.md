@@ -9,6 +9,11 @@ Pour enregistrer une dépendance :
     export class AppModule {
     }
 
-Il est aussi possible de déclarer la dépendance directement sur le composant ciblé.
+Il faut qu'elle soit déclarée comme injectable&nbsp;:
 
-`Angular utilise plusieurs injecteurs cherchant les dépendances des enfants jusqu'au 'root injector'`
+```javascript
+@Injectable()
+export class GithubService {
+    
+}
+```

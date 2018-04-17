@@ -1,3 +1,5 @@
 # Directives de templating
 
-Juste des directives standard
+Component = une balise HTML personalisé
+
+Directive = attribut HTML personalisé (utilisable sur toutes balises/components)

@@ -5,8 +5,8 @@
 
 
         let variable: type;
-        const firstName: string = 'Jocelyn';
-        const jntakpe: User = new User();
+        const firstName: string = 'Alexandre';
+        const asirko: User = new User();
         let users:Array<User> = [new User()];
         users = 2; // compilation error
         let someVar: any = 20;

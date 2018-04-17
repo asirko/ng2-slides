@@ -11,8 +11,8 @@ Interprete aussi les valeurs complexes
     export class InterpolationComponent {
       titre: string = 'Interpolation';
       user: any = {
-        firstName: 'Jocelyn',
-        lastName: 'N\'TAKPE'
+        firstName: 'Alexandre',
+        lastName: 'SIRKO'
       }
     }
 

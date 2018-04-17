@@ -12,7 +12,7 @@ Evite les erreurs lors dans chargement différés avec le 'Safe Navigation Opera
     export class InterpolationComponent {
       titre: string = 'Interpolation';
       user: any = {
-        firstName: 'Jocelyn',
-        lastName: 'N\'TAKPE'
+        firstName: 'Alexandre',
+        lastName: 'SIRKO'
       }
     }

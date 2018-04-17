@@ -1,3 +1,5 @@
 ## Observables are lazy ...
 
-![Lazy obs](/slides/ng2/rxjs/how-rx-works/lazy.gif)
+* __Rien ne se passe tant qu'il n'y pas de souscription__
+* `monObservable$.subscribe(monCallback)`
+* Par convention, les nom des observable finissent par `$`

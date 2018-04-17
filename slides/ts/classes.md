@@ -14,4 +14,4 @@
         
         }
         
-        new ConsoleWriter('Jocelyn', 'NTAKPE').write('Some param');
+        new ConsoleWriter('Alexandre', 'SIRKO').write('Some param');

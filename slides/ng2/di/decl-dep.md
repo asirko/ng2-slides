@@ -14,7 +14,7 @@ export class DiComponent implements OnInit {
   constructor(private githubService: GithubService) {}
 
   ngOnInit(): void {
-    this.reposNames$ = this.githubService.findReposForUser('jntakpe')
+    this.reposNames$ = this.githubService.findReposForUser('asirko')
                            .map(repos => repos.map(repo => repo.name));
   }
 }

@@ -4,7 +4,7 @@
     "packageVersion": "0.1.0",
     "useSass": true,
     "deployToGithubPages": true,
-    "githubUsername": "jntakpe",
+    "githubUsername": "asirko",
     "githubRepository": "ng2-slides"
   }
 }

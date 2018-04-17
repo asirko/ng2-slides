@@ -1,9 +1,7 @@
 ## Autres filtres
 
-* first
-* last
-* takeFirst
-* takeLast
+* take
+* takeUntil
 * skip
 * distinct
 * debounce

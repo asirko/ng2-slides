@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jntakpe/ng2-slides.git"
+    "url": "git@github.com:asirko/ng2-slides.git"
   },
   "scripts": {
     "test": "grunt test"

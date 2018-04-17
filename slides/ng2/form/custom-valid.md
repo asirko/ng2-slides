@@ -5,7 +5,7 @@ export class ValidFormComponent {
   loginForm: FormGroup;
   constructor(formBuilder: FormBuilder) {
     const isKnowUser = (control: FormControl) => {
-      return ['jntakpe', 'gpeel']
+      return ['mitch', 'asirko']
         .filter(v => v === control.value)
         .length ? null : {unknownUser: true};
     };

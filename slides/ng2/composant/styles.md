@@ -17,5 +17,3 @@ Néanmoins, on préfère généralement l'attribut *styleUrls*.
           }
         
         }
-
-`Toute directive non déclarée dans l'attribut *declarations* de @NgModule sera ignorée`

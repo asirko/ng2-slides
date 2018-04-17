@@ -2,7 +2,8 @@
 
 Permet de formatter un nombre
 
-Le format dépend de la local de l'application (changer la local : provider `{ provide: LOCALE_ID, useValue: "fr-FR" }` dans app.module.ts)
+Le format dépend de la local de l'application 
+(possibilité de changer la local dans l'application)
 
 Prend un seul param sous la forme : `{integerDigits}.{minFractionDigits}-{maxFractionDigits}`
 

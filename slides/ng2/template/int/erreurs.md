@@ -1,4 +1,4 @@
-Affiche les erreurs correctement contrairement à Angular JS avec la ligne responsable
+Interprète aussi les valeurs complexes
 
     import {Component} from '@angular/core';
     @Component({
@@ -12,7 +12,10 @@ Affiche les erreurs correctement contrairement à Angular JS avec la ligne respo
     export class InterpolationComponent {
       titre: string = 'Interpolation';
       user: any = {
-        firstName: 'Jocelyn',
-        lastName: 'N\'TAKPE'
+        firstName: 'Alexandre',
+        lastName: 'SIRKO'
       }
     }
+
+Affiche les erreurs correctement avec la ligne responsable 
+(plus les sources map !)
