@@ -5,7 +5,7 @@ git clone https://github.com/asirko/sportJS.git
 ```
 
 - Techniquement :
-  - Application Angular 4 ;
+  - Application Angular 5 (a été initialiser en v4 puis upgradé) ;
   - Généré avec angular-cli ;
   - Backend mocké avec NodeJS ;
   - SPA / RIA ;
