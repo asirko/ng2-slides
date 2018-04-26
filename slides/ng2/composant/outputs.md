@@ -15,7 +15,7 @@ export class MonComposant {
   @Output() resultat = new EventEmitter<number>();
   
   emettreScore(): void {
-      this.resultat.emit(45);
+      this.resultat.emit(42);
   }
 }
 ```

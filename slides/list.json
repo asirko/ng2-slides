@@ -13,9 +13,9 @@
     "ng2/tps/fil-rouge.md",
     [
         "ng2/template/int/interpol.md",
+        "ng2/template/int/change-detect.md",
         "ng2/template/int/erreurs.md",
-        "ng2/template/int/safe.md",
-        "ng2/template/int/change-detect.md"
+        "ng2/template/int/safe.md"
     ], [
         "ng2/template/bind/binding.md",
         "ng2/template/bind/binding2.md"
@@ -58,6 +58,9 @@
         "ng2/composant/inputs.md",
         "ng2/composant/outputs.md",
         "ng2/composant/lifecycle.md"
+    ], [
+        "ng2/tps/compo.md",
+        "ng2/tps/compo2.md"
     ], [
         "ng2/services/services.md",
         "ng2/services/title.md",

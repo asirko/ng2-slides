@@ -1,5 +1,5 @@
 - Faire fonctionner le filtre des Stats :
-   1. créer le pipe dans `share/exercice` ;
+   1. créer le pipe dans `share/record` ;
    2. le pipe renvoit une sous liste de record correspondant au paramètre `category` ;
    3. l'utiliser dans `SelectorComponent` :
       1. le switch permet de selectionner une `category` ;
