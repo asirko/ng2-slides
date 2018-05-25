@@ -1,11 +1,16 @@
-## Observable
+### Observable
 
-* objet qui reçoit des événements
+* objet qui fait transiter des événements
 * on peut s'y abonner
-* c'est généralement ce que l'on mannipule (les composants réagissent aux événements)
+* il peut passer au travers des couches applicatives
 
-## Observer
+### Observer
 
-* objet qui émet des événements
-* utile pour encapsuler des comportement asynchrone
+* consomme les événements
+* s'abonner implique de devenir observer
+
+### Subject
+
+* Observable qui peut accéder à son observer
+* Permet d'émettre soit même des événements
 * HttpClient encapsule déjà les appels aux APIs
